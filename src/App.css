@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.image1-container {
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mountain-img, .history-img, .climb-img {
+    width: 978px;
+    height: 750px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+    position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    font-size: 80px;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    position: absolute;
+    left: 150px;
+    padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.span-1, .span-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    left: 750px;
+    padding-top: 10px;
+    padding-right: 7px;
 }
+
+.span-2 {
+    left: 850px;
+}
+
